@@ -6,9 +6,8 @@ sudo DEBIAN_FRONTEND=noninteractive
 sudo apt-get update
 sudo apt-get upgrade -y
 
-echo 'INSTALACJA PHP, APACHE, INNE'
+echo 'INSTALACJA PHP, APACHE2, INNE'
 
-sudo apt-get upgrade -y
 sudo apt-get install php5 php5-gd php5-common php5-mysql apache2 unzip -y
 service apache2 start
 mkdir temp
